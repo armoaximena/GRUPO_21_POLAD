@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+
+header {
+    background-color: #0a9396;
+    height: 100px;
+    margin: 10px;
+    width: 730px;
+}
+
+.img-inicio {
+    width: 730px;
+    height: 365px;  
+    margin: 10px 10px 30px 10px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding: 10px 300px 0px 300px;
+    margin: 0px;
+    bottom: 0px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    padding: 0px 300px 20px 300px;
+    margin: 0px;
+    bottom: 0px;
+    
+}
+
+.texto-b {
+    font-family: "Poppins", sans-serif; 
+    font-weight: 10px;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.texto-n {
+    font-family: "Poppins", sans-serif; 
+    font-weight: 10px;
+    font-size: 10px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.flexbox-navegador {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.flexbox-centro {
+    display: flex;
+    margin: auto;
+}
+
+a:hover {
+    color: #cad2c5;
+}
+a {
+    color: white;
+    text-decoration: none;             /* sacamos el subrayado de los links */
+}
+
+li {
+    list-style-type: none;           /* sacamos las viñetas de las listas */
+}
+
+nav ul li {
+    display: inline-block;           /* ponemos el menu en horizontal */
+}
+
+p {
+    text-align: left;
+    margin: 20px;   
+}
+
+
+.conteiner-formularioytexto {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.tamanio-divtexto {
+    width: 300px;
+    height: 300px; 
+    margin-top: 60px;
+    margin-right: 10px;
+}
+
+
+.tamanio-form {
+    width: 400px;
+    height: 200px;
+}
+
+
+
+.icono-f {
+    width: 20px;
+    height: 20px; 
+    display: block;
+    margin-left: auto;
+    padding-right: 50px; 
+}
+
+.flexbox-ubicar {
+    display: flex;
+}
+
+p {
+    text-align: left;
+    margin: 20px;   
+}
+
+footer{
+    background-color:#0a9396;
+    margin: 30px 10px 20px 10px;
+    padding: 35px 0px 35px 0px;
+    width: 730px; 
+    height: 40px;
+}
+
+
+.video-conteiner{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+
+}
+
+.video-conteiner iframe {
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+.conteiner-link-img {
+    position: relative;
+    display: inline-block;
+}
+
+
+.link-text {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background-color: #0a9396;
+    padding: 5px 10px;    
+}
+
+.texto2 {
+    color: #0a9396;
+    margin-bottom: 30px;
+}
+
+.texto3 {
+    color: white;
+    text-align: left;
+    font-size: 12px;
+}
+
+.conteiner-piedepagina {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*.left-img, .right-ico {
+    width: 50%;
+}*/
+
+.junto {
+    top: 0px;
+    padding-left: 10px;
+    margin: 0px;
+    bottom: 0px;
+}
+
+
+
+
+@media (min-width: 768px){
+
+    header {
+        height: 100px;
+        margin: 10px;
+        width: 986px;
+    }
+
+    .img-inicio {
+        width: 986px;
+        height: 493px;  
+        margin: 10px 10px 30px 10px;
+    }
+
+    .video-conteiner{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    
+    .video-conteiner iframe {
+        width: 25%;
+        margin-bottom: none;
+    }
+
+    .texto-b {
+        font-weight: 15px;
+        font-size: 15px;
+    }
+
+    .texto-n { 
+        font-weight: 15px;
+        font-size: 15px;
+        
+    }
+    
+    .tamanio-form {
+        width: 600px;
+        height: 300px;
+    }
+
+    .tamanio-divtexto {
+        width: 400px;
+        height: 400px; 
+    }
+
+    footer{ 
+        width: 986px; 
+        height: 50px;
+    }
+}
+
+
+
+@media (min-width: 1024px){
+
+
+header {
+    height: 180px;
+    margin: 10px;
+    width: 1500px;
+}
+
+.texto-b {
+    font-weight: 20px;
+    font-size: 20px;
+}
+
+.texto-n { 
+    font-weight: 20px;
+    font-size: 20px;
+    
+}
+
+.img-inicio {
+    width: 1483px;
+    height: 741px;  
+    margin: 10px 10px 30px 10px;
+}
+
+.video-conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.video-conteiner iframe {
+    width: 25%;
+}
+
+.icono-f {
+    width: 40px;
+    height: 40px; 
+    display: block;
+    margin-left: auto;
+    padding-right: 50px; 
+}
+
+.tamanio-form {
+    width: 800px;
+    height: 400px;
+    padding: 60px 5px 0px 20px; 
+}
+
+.tamanio-divtexto {
+    width: 600px;
+    height: 600px; 
+}
+
+.junto {
+    top: 0px;
+    padding-left: 40px;
+    margin: 0px;
+    bottom: 0px;
+}
+
+.texto3 {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
+footer{
+    width: 1500px;
+    height: 80px;
+}
+
+}
