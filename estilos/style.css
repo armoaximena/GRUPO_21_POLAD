@@ -1,39 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
 
+
+
+body {
+    width: 100vh;
+    background-color: white;
+    margin: 0vh;
+    padding: 0vh;
+    
+}
+
 header {
+    width: 100vh;
+    height: 10vh;
+    margin: 0vh;
+    padding: 0vh;
     background-color: #0a9396;
-    height: 100px;
-    margin: 10px;
-    width: 730px;
+    
+}
+
+.tamanio-logo {
+    width: 12vh;
+    height: 4vh;
+    margin-top: 2vh; 
 }
 
 .img-inicio {
-    width: 730px;
-    height: 365px;  
-    margin: 10px 10px 30px 10px;
+    width: 100vh;
+    height: 50vh;  
+    margin-top: 1vh;
 }
 
-h1 {
-    color: white;
-    text-align: center;
-    padding: 10px 300px 0px 300px;
-    margin: 0px;
-    bottom: 0px;
-}
 
 h2 {
     color: white;
     text-align: center;
-    padding: 0px 300px 20px 300px;
     margin: 0px;
-    bottom: 0px;
-    
+    bottom: 0px;   
 }
 
 .texto-b {
     font-family: "Poppins", sans-serif; 
-    font-weight: 10px;
-    font-size: 10px;
+    font-size: 2vh;
     text-align: center;
     color: white;
     text-decoration: none;
@@ -41,8 +49,8 @@ h2 {
 
 .texto-n {
     font-family: "Poppins", sans-serif; 
-    font-weight: 10px;
-    font-size: 10px;
+    font-weight: 2vh;
+    font-size: 2vh;
     text-align: center;
     color: black;
     text-decoration: none;
@@ -50,6 +58,7 @@ h2 {
 
 .flexbox-navegador {
     display: flex;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -59,56 +68,53 @@ h2 {
     margin: auto;
 }
 
-a:hover {
-    color: #cad2c5;
+.a-click:hover {
+    color: black;
 }
+
+.custom-hover:hover {
+    color: black; /* Cambia el color al pasar el mouse */
+  }
+
 a {
     color: white;
     text-decoration: none;             /* sacamos el subrayado de los links */
 }
 
 li {
-    list-style-type: none;           /* sacamos las viñetas de las listas */
+    list-style-type: none;           /* sacamos las viñetas de las listas */;
 }
 
 nav ul li {
     display: inline-block;           /* ponemos el menu en horizontal */
 }
 
-p {
-    text-align: left;
-    margin: 20px;   
-}
-
-
-.conteiner-formularioytexto {
+.conteiner-nosotros {
     display: flex;
-    justify-content: center;
-    margin-top: 50px;
+    margin-top: 10vh;
+    flex-direction: column-reverse;
+    align-items: center;
 
 }
 
 .tamanio-divtexto {
-    width: 300px;
-    height: 300px; 
-    margin-top: 60px;
-    margin-right: 10px;
+    width: 80vh;
+    height: 30vh; 
+    margin-top: 5vh;
 }
 
 
-.tamanio-form {
-    width: 400px;
-    height: 200px;
+.tamanio-ministerio {
+    width: 80vh;
+    height: 50vh;
 }
-
-
 
 .icono-f {
-    width: 20px;
-    height: 20px; 
+    width: 7vh;
+    height: 7vh; 
     display: block;
-    margin-left: auto;
-    padding-right: 50px; 
+    margin-right: 2vh;
+    margin-top: 1vh;
 }
 
 .flexbox-ubicar {
@@ -116,20 +122,18 @@ p {
 }
 
 p {
-    text-align: left;
-    margin: 20px;   
+    text-align: left;  
 }
 
 footer{
     background-color:#0a9396;
-    margin: 30px 10px 20px 10px;
-    padding: 35px 0px 35px 0px;
-    width: 730px; 
-    height: 40px;
+    width: 100vh; 
+    height: 12vh;
+    padding-top:2vh;
 }
 
 
-.video-conteiner{
+/*.video-conteiner{
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -139,9 +143,9 @@ footer{
 
 .video-conteiner iframe {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 5vh;
     
-}
+}*/
 
 .conteiner-link-img {
     position: relative;
@@ -155,18 +159,25 @@ footer{
     left: 75%;
     transform: translate(-50%, -50%);
     background-color: #0a9396;
-    padding: 5px 10px;    
+    padding: 5px 10px;  
+    font-family: "Poppins", sans-serif; 
+    font-size: 2vh;
+    text-align: center;
+    color: white;
+    text-decoration: none;  
 }
 
 .texto2 {
     color: #0a9396;
-    margin-bottom: 30px;
+    margin-bottom: 2vh;
+    margin-top: 10vh;
+    text-align: center;
 }
 
 .texto3 {
     color: white;
     text-align: left;
-    font-size: 12px;
+    font-size: 1.1vh;
 }
 
 .conteiner-piedepagina {
@@ -174,148 +185,239 @@ footer{
     justify-content: space-between;
 }
 
-/*.left-img, .right-ico {
-    width: 50%;
-}*/
-
 .junto {
-    top: 0px;
-    padding-left: 10px;
-    margin: 0px;
-    bottom: 0px;
+    top: 0vh;
+    padding-left: 5vh;
+    margin: 0vh;
+    bottom: 0vh;
+}
+
+.container {
+    text-align: center;
+    padding: 8vh;
+ }
+
+.tamanio-servicio{
+   width: 15vh;
+   height: 15vh;
+}
+
+.tamanio-servicio:hover {
+    transform: scale(1.1);;
+ }
+
+.container-servicios {
+    display: grid;
+    grid-template-columns: 30vh 30vh;
+    grid-template-rows: 30vh 30vh; 
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+ }
+
+.centrar-form {
+    width: 90vh;
+    height: 40vh; 
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    margin:auto;
+}
+
+.btn-ingresar {
+    background-color: #0a9396;
+    font-family: "Poppins", sans-serif; 
+    color: white;
+    border: none; /* Quita el borde del botón */
+   /* padding: 1vh 2vh;  Espaciado interno */
+    text-align: center;
+    display: inline-block; /* Hace que el botón se comporte como un bloque */
+    font-size: 2vh;
 }
 
 
+@media (min-width:768px) {
 
-
-@media (min-width: 768px){
-
-    header {
-        height: 100px;
-        margin: 10px;
-        width: 986px;
-    }
-
-    .img-inicio {
-        width: 986px;
-        height: 493px;  
-        margin: 10px 10px 30px 10px;
-    }
-
-    .video-conteiner{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    
-    }
-    
-    .video-conteiner iframe {
-        width: 25%;
-        margin-bottom: none;
-    }
-
-    .texto-b {
-        font-weight: 15px;
-        font-size: 15px;
-    }
-
-    .texto-n { 
-        font-weight: 15px;
-        font-size: 15px;
+    body {
+        width: 100vw;
+        margin: 0vw;
+        padding: 0vw;
         
     }
     
-    .tamanio-form {
-        width: 600px;
-        height: 300px;
+    header {
+        width: 100vw;
+        height: 6vw;
+        margin: 0vw;
+        padding: 0vw;
+        background-color: #0a9396;;
+        
+    }
+
+    .img-inicio {
+        width: 100vw;
+        height: 50vw;  
+        margin-top: 1vw;
+    }
+
+    .tamanio-logo {
+        width: 12vw;
+        height: 4vw;
+        margin-top: 1vw;
+    }
+    
+    .texto-b {
+        font-size: 2vw;
+    }
+
+    .texto-n {
+        font-size: 2vw;
+        text-align: center;  
+    }
+
+    .btn-ingresar {
+        padding: 1vw 2vw; /* Espaciado interno */
+        font-size: 2vw;
+    }
+
+    .link-text {
+        font-size: 2vw;  
+    }
+
+    footer{
+        background-color:#0a9396;
+        width: 100vw; 
+        height: 10vw;
+        padding-top: 2vw;
+    }
+
+    .texto3 {
+        color: white;
+        text-align: left;
+        font-size: 1.1vw;
+    }
+
+    .container-servicios {
+        grid-template-columns: 21vw 21vw 21vw 21vw;
+        grid-template-rows: none;
+        padding-top: 15vw;
+        padding-bottom: 15vw;
+     }
+
+    .tamanio-servicio {
+        width: 15vw;
+        height: 15vw;
     }
 
     .tamanio-divtexto {
-        width: 400px;
-        height: 400px; 
+        width: 75vw;
+        height: 30vw; 
+        margin-top: 5vw;
     }
 
-    footer{ 
-        width: 986px; 
-        height: 50px;
+    .centrar-form {
+        width: 80vw;
+        height: 40vw; 
+        padding-top: 5vw;
+        margin:auto;
     }
-}
-
-
-
-@media (min-width: 1024px){
-
-
-header {
-    height: 180px;
-    margin: 10px;
-    width: 1500px;
-}
-
-.texto-b {
-    font-weight: 20px;
-    font-size: 20px;
-}
-
-.texto-n { 
-    font-weight: 20px;
-    font-size: 20px;
     
-}
-
-.img-inicio {
-    width: 1483px;
-    height: 741px;  
-    margin: 10px 10px 30px 10px;
-}
-
-.video-conteiner{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
 
 }
 
-.video-conteiner iframe {
-    width: 25%;
-}
+@media (min-width:1024px) {
 
-.icono-f {
-    width: 40px;
-    height: 40px; 
-    display: block;
-    margin-left: auto;
-    padding-right: 50px; 
-}
+    body {
+        width: 100vw;
+        margin: 0vw;
+        padding: 0vw;
+        
+    }
+    
+    header {
+        width: 100vw;
+        height: 7vw;
+        margin: 0vw;
+        padding: 0vw;
+        background-color: #0a9396;;
+        
+    }
 
-.tamanio-form {
-    width: 800px;
-    height: 400px;
-    padding: 60px 5px 0px 20px; 
-}
+    .img-inicio {
+        width: 100vw;
+        height: 50vw;  
+        margin-top: 1vw;
+    }
 
-.tamanio-divtexto {
-    width: 600px;
-    height: 600px; 
-}
+    .tamanio-logo {
+        width: 17vw;
+        height: 5vw;
+        margin-top: 1vw;
+    }
+    
+    .texto-b {
+        font-size: 1.5vw;
+    }
 
-.junto {
-    top: 0px;
-    padding-left: 40px;
-    margin: 0px;
-    bottom: 0px;
-}
+    .texto-n {
+        font-size: 1.5vw;
+        text-align: center;   
+    }
 
-.texto3 {
-    color: white;
-    text-align: left;
-    font-size: 20px;
-}
-footer{
-    width: 1500px;
-    height: 80px;
-}
+    .form-label {
+        font-size: 1.5vw;  
+    }
+
+    .btn-ingresar {
+        /*padding: 1vw 2vw;  Espaciado interno */
+        font-size: 1.5vw;
+        padding: 0.3vw;
+    
+    }
+
+    .link-text {
+        font-size: 1.5vw;  
+    }
+
+    .tamanio-servicio img{
+        width: 15vw;
+        height: 15vw;
+    }
+
+    footer{
+        background-color:#0a9396;
+        width: 100vw; 
+        height: 7vw;
+        padding-top: 1vw;
+    }
+
+    .texto3 {
+        color: white;
+        text-align: left;
+        font-size: 1.1vw;
+    }
+
+    .container-servicios {
+        grid-template-columns: 21vw 21vw 21vw 21vw;
+        grid-template-rows: none; 
+        padding-top: 15vw;
+        padding-bottom: 15vw;
+     }
+
+    .tamanio-divtexto {
+        width: 75vw;
+        height: 30vw; 
+        margin-top: 5vw;
+    }
+    
+    .centrar-form {
+        width: 50vw;
+        height: 30vw; 
+        padding-top: 5vw;
+        margin:auto;
+    }
+
+
 
 }
