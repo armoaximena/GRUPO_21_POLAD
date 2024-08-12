@@ -110,8 +110,8 @@ nav ul li {
 }
 
 .icono-f {
-    width: 7vh;
-    height: 7vh; 
+    width: 3vh;
+    height: 3vh; 
     display: block;
     margin-right: 2vh;
     margin-top: 1vh;
@@ -322,6 +322,14 @@ footer{
         padding-top: 5vw;
         margin:auto;
     }
+
+    .icono-f {
+        width: 3vw;
+        height: 3vw; 
+        display: block;
+        margin-right: 2vw;
+        margin-top: 1vw;
+    }
     
 
 }
@@ -418,6 +426,12 @@ footer{
         margin:auto;
     }
 
-
+    .icono-f {
+        width: 3vw;
+        height: 3vw; 
+        display: block;
+        margin-right: 2vw;
+        margin-top: 1vw;
+    }
 
 }
