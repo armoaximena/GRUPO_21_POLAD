@@ -236,6 +236,25 @@ footer{
     font-size: 2vh;
 }
 
+.conteiner-buscar {
+    display: flex;
+    margin-top: 10vh;
+    margin-left: 15vh;
+    align-items: center;
+}
+
+main {
+    flex:1;
+}
+
+h3 {
+    text-align:left;
+}
+
+.tamanio-divtexto-buscar {
+     
+    margin-top: 0vh;
+}
 
 @media (min-width:768px) {
 
